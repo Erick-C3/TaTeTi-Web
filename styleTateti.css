@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(24, 75, 24);
+}
+
+.tablero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    /* -1/2 width */
+    margin-top: -300px;
+    /* -1/2 height */
+    /*tamaño definido para el tablero debe corresponder al tamaño de las filasxcol si se agrega*/
+    height: 600px;
+    width: 600px; 
+}
+
+.boton{    
+    width: 200px;
+    height: 200px;
+    background-color: rgb(48, 105, 48);
+    /*O: https://i.gifer.com/DVxT.gif*/
+    /*X: https://i.gifer.com/AWWg.gif*/
+    /*  : https://thumbs.gfycat.com/VariableApprehensiveDevilfish-max-1mb.gif*/
+
+}
